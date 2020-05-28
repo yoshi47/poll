@@ -10,5 +10,11 @@
         <property name="serverTimezone" value="UTC" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="db" uuid="05f446db-4163-464e-ba75-7c749c9a2ba4">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\flame\Desktop\NewFolder\django\poll\db.sqlite3</jdbc-url>
+    </data-source>
   </component>
 </project>
